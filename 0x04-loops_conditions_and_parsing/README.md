@@ -1,0 +1,1 @@
+This project focuses on using loops, conditional statements, and text parsing in Bash scripting. These concepts are essential for automating repetitive tasks and making scripts smarter and more dynamic.
