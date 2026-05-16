@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Displays a message indefinitely and handles SIGTERM
+#bash script that displays 'To infinity and beyond', if kill attempt 'I am invincible!!!'
 trap 'echo "I am invincible!!!"' SIGTERM
-while true
-do
+counter=2
+while [ $counter -gt 0 ]; do
     echo "To infinity and beyond"
     sleep 2
 done
