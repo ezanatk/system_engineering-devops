@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
-# This script is displaying "Holberton School" 10 times
-trap "echo I am invincible!!!" SIGTERM
-while  ((1))
+# Displays a message indefinitely and handles SIGTERM
+
+trap 'echo "I am invincible!!!"' SIGTERM
+
+while true
 do
-    echo "To infinity and beyond"
-    sleep 2
+	echo "To infinity and beyond"
+	sleep 2
 done
